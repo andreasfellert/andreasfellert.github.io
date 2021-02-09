@@ -103,7 +103,7 @@ path#left-to-right-rectbox {
     fill: #FEEC2E;
     opacity: 0.3;
     stroke: none;
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     animation: rectTranslateX 800ms cubic-bezier(0.895, 0.030, 0.685, 0.220) forwards;
     animation-iteration-count: 1;
     animation-delay: 1800ms;
@@ -128,8 +128,8 @@ rect#left-to-right-rect {
     to      { opacity: 0; }
 }
 @keyframes rectTranslateX {
-    from    { transform: translateX(-100%); }
-    to      { transform: translateX(100%); }
+    from    { transform: translateX(-120%); }
+    to      { transform: translateX(120%); }
 }
 @keyframes rectWidth {
     from    { width: 0; }
